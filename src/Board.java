@@ -8,4 +8,22 @@ public class Board {
     void placePawnOnTheBoard(final int x, final int y, final Pawn pawn) {
         this.board[x][y] = pawn;
     }
+    
+    String showMap() {
+		String mapAsString = "";
+		
+		for (int i = 0; i < board.length; i++) {
+			String row = "[";
+			for (int j = 0; j < board[i].length; j++) {
+				if(this.board[i][j] == null) {
+					row += " ___ ,";
+				} else {
+					row += " " + this.board[i][j] + " ,"; 
+				}
+			}
+			row += "]";
+			mapAsString += row + "\n";
+		}
+		return mapAsString;
+	}
 }
