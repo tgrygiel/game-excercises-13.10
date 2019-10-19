@@ -10,6 +10,7 @@ public class Player
     boolean color;
     Pawn[] pawns;
     
+    // Maybe it is good to add board as field
     Player(final String name, final boolean color) {
         this.name = name;
         this.color = color;
