@@ -10,5 +10,9 @@ public class Main {
         
         System.out.println(tomek);
         System.out.println(kamila);
+        
+        
+        //test SYSO
+        System.out.println();
     }
 }
