@@ -9,7 +9,7 @@ public class Board {
         this.board[x][y] = pawn;
     }
     
-    String showMap() {
+    public String toString() {
 		String mapAsString = "";
 		
 		for (int i = 0; i < board.length; i++) {
