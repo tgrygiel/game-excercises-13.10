@@ -1,5 +1,6 @@
 # Compiled class file
 bin/
+.settings/
 *.class
 
 # Log file
