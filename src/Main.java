@@ -1,6 +1,3 @@
-import test.TestTomekG;
-import Dectro99.Days;
-
 public class Main {
 	
     public static void main(final String[] args) {
@@ -23,20 +20,5 @@ public class Main {
         
         //test SYSO
         System.out.println();
-        
-        
-        //test Dectro99
-        
-        Days testObjectDectroClass =  new Days("January", 2);
-        System.out.println(testObjectDectroClass);
-        
-        
-        
-        
-        
-        
-        // Tests classes
-        TestTomekG testObjectTomeksClass =  new TestTomekG("Tomek");
-        System.out.println(testObjectTomeksClass);
     }
 }
