@@ -30,5 +30,8 @@ public class Main {
         
         krolik.rabbitParameters();
         System.out.println(krolik.toString());
+        System.out.println(krolik);
+        krolik.rabbitParameters();
+        System.out.println(krolik);
     }
 }

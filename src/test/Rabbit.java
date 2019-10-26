@@ -25,4 +25,7 @@ public class Rabbit {
 	public String toString() {
 		return "Szybkosc królika: " + this.speed;
 	}
+	
+	
+
 }
