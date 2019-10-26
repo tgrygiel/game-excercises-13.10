@@ -34,6 +34,5 @@ public class Main {
         // Tests classes
         TestTomekG testObjectTomeksClass =  new TestTomekG("Tomek");
         System.out.println(testObjectTomeksClass);
-            	
-}  	
+    }
 }
