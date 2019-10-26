@@ -22,15 +22,15 @@ public class Main {
         
         //test SYSO
         System.out.println();
-
-
-
-
-
-
-
-
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
         // Tests classes
         TestTomekG testObjectTomeksClass =  new TestTomekG("Tomek");
         System.out.println(testObjectTomeksClass);
