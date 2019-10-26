@@ -1,3 +1,4 @@
+import test.NumberOfEmployees;
 import test.TestTomekG;
 
 public class Main {
@@ -24,9 +25,9 @@ public class Main {
         System.out.println();
         
         
+        NumberOfEmployees ilosc = new NumberOfEmployees (8); 
         
-        
-        
+        System.out.println(ilosc);
         
         
         
