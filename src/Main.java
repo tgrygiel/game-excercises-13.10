@@ -1,4 +1,5 @@
 import test.TestTomekG;
+import Dectro99.Days;
 
 public class Main {
 	
@@ -24,7 +25,10 @@ public class Main {
         System.out.println();
         
         
+        //test Dectro99
         
+        Days testObjectDectroClass =  new Days("January", 2);
+        System.out.println(testObjectDectroClass);
         
         
         
