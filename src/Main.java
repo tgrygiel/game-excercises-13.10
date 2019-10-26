@@ -1,3 +1,6 @@
+
+
+import test.Rabbit;
 import test.TestTomekG;
 
 public class Main {
@@ -6,6 +9,10 @@ public class Main {
         final Player tomek = new Player("Tomek", true);
         final Player kamila = new Player("Kamila", false);
         
+        Rabbit krolik = new Rabbit("white", 5, 7, "Yellow");
+        
+        
+        
         //Sparametryzuj wielkosc tablicy
         Board board = new Board();
         System.out.println(board);
@@ -13,26 +20,15 @@ public class Main {
         tomek.makeAMove(1, 2, 1, board);
         kamila.makeAMove(2, 2, 0, board);
         System.out.println(board);
-        
-        
-        
         System.out.println(tomek);
         System.out.println(kamila);
-        
-        
         //test SYSO
         System.out.println();
-        
-        
-        
-        
-        
-        
-        
-        
-        
         // Tests classes
         TestTomekG testObjectTomeksClass =  new TestTomekG("Tomek");
         System.out.println(testObjectTomeksClass);
+        
+        krolik.rabbitParameters();
+        System.out.println(krolik.toString());
     }
 }
