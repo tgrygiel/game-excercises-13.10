@@ -1,3 +1,4 @@
+import test.HumanMK;
 import test.TestTomekG;
 
 public class Main {
@@ -34,5 +35,10 @@ public class Main {
         // Tests classes
         TestTomekG testObjectTomeksClass =  new TestTomekG("Tomek");
         System.out.println(testObjectTomeksClass);
+        
+//      Maciek-krzyzosiak
+        HumanMK johnny = new HumanMK("Johnny",22,"police officer");
+        johnny.introduce();
+        
     }
 }
