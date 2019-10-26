@@ -6,9 +6,6 @@ public class Max {
    String color = "brown";
    double old = 2;
    
-   void go () {
-	   
-   }
    
 	  
   
