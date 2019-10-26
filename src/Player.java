@@ -20,6 +20,11 @@ public class Player
         }
     }
     
+    void makeAMove(int x, int y, int pawnNumber, Board board) {
+    	
+    	board.placePawnOnTheBoard(x, y, this.pawns[pawnNumber]);
+    }
+    
     @Override
     public String toString() {
         return String.valueOf(this.name) + ", " + this.color + " " + Arrays.toString(this.pawns);
