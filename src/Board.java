@@ -16,9 +16,9 @@ public class Board {
 			String row = "[";
 			for (int j = 0; j < board[i].length; j++) {
 				if(this.board[i][j] == null) {
-					row += " ___ ,";
+					row += " ___ |";
 				} else {
-					row += " " + this.board[i][j] + " ,"; 
+					row += " " + this.board[i][j] + " |";
 				}
 			}
 			row += "]";
