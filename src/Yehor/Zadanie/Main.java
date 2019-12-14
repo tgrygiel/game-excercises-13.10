@@ -44,11 +44,11 @@ public class Main {
         shop.addNewTv(t4);
         shop.addNewTv(t5);
 
-
-//        c2.buyPhone(shop.getPhoneById(3));
-        System.out.println(shop.getPhoneById(3));
-//        c2.buyPhone(shop.getPhoneById(1));
-//        c2.buyPhone(shop.getPhoneById(9));
+        shop.getPhoneById(4);
+        c2.buyPhone(shop.getPhoneById(3));
+//        System.out.println(shop.getPhoneById(3));
+        c2.buyPhone(shop.getPhoneById(1));
+        c2.buyPhone(shop.getPhoneById(9));
 
 //        --------------------------------
 
