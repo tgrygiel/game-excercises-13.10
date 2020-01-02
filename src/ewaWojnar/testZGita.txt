@@ -1,0 +1,12 @@
+1.System kontroli wersji do ³atwego zarz¹dzania stanami projektów informatycznych. Umo¿liwia przemieszczanie siê pomiêdzy ró¿nym wersjami w czasie. Œledzi przyrostowo zmiany wprowadzane przez autorów. Pomaga w utrzymania spójnoœci aplikacji podczas jej tworzenia. Umo¿liwia pracê nad projektem przez ró¿ne osoby w tym samym czasie.
+2/C
+3/B
+4/B i C, s¹ tak samo niepoprawne poniewa¿ nazwa Brancha powinna opisywaæ co na niej robimy. 
+5/C
+6/B checkout
+7/A
+8/D
+9/A, chyba, ¿e jest chroniony
+10/B
+11-GitHub, GitLab, BitBucket.
+ 
